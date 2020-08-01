@@ -1,0 +1,22 @@
+{
+    "name": "my-vs-code-light-theme",
+    "displayName": "vs-code-light-theme",
+    "description": "Light color theme",
+    "version": "0.0.1",
+    "publisher": "test",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light color theme",
+                "uiTheme": "vs",
+                "path": "./themes/Light color theme-color-theme.json"
+            }
+        ]
+    }
+}
