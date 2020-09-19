@@ -15,7 +15,7 @@
             {
                 "label": "Light color theme",
                 "uiTheme": "vs",
-                "path": "./themes/Light color theme-color-theme.json"
+                "path": "./themes/light-color-theme.json"
             }
         ]
     }
