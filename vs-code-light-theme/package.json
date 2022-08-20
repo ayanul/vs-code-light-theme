@@ -1,22 +1,42 @@
 {
     "name": "vs-code-light-theme",
     "displayName": "vs-code-light-theme",
-    "description": "Light color theme",
+    "description": "Google Developer Tibau",
     "version": "0.0.1",
-    "publisher": "test",
+    "publisher": "ayanul",
     "engines": {
         "vscode": "^1.28.0"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ayanul/vs-code-light-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/ayanul/vs-code-light-theme/issues"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "vscode",
+        "themes",
+        "light"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "Light color theme",
+                "label": "Google Developer Tibau",
                 "uiTheme": "vs",
-                "path": "./themes/light-color-theme.json"
+                "path": "./themes/default-light-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    },
+    "scripts": {
+        "start": "nodemon --watch src src/index.js",
+        "build": "node src/index.js"
     }
 }
